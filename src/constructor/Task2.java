@@ -1,3 +1,5 @@
+package constructor;
+
 public class Task2 {
     /*Write program that have static constructor and observe result.*/
 

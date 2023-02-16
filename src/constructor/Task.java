@@ -1,4 +1,6 @@
- class Task {
+package constructor;
+
+class Task {
     /*Write a java class that have 4 constructors with 4 different access levels of
      constructors(private,public,default,protected) and create 4 objects of this class: 1 - inside same class;
     2 - from outside the class;
@@ -10,7 +12,7 @@ int age;
 char grade;
 private Task(String fName){name=fName;}
 public Task(double personWeight){weight=personWeight;}
-  Task( int personAge) {age = personAge;}
+  Task(int personAge) {age = personAge;}
   protected Task(char personGrade) {grade = personGrade;}
 
 
